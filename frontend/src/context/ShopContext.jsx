@@ -45,6 +45,7 @@ const ShopContextProvider = (props) => {
                         token
                     }
                  })
+                 toast.success("Product Added To Cart", { hideProgressBar: true, autoClose: 2000 })
 
             } catch (error) {
                 console.log(error)
